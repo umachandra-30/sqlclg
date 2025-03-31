@@ -23,8 +23,9 @@ SELECT TO_DATE('2020-06-23', 'yyyy-mm-dd') FROM dual;
 SELECT TO_DATE('20-06-23', 'yy-mm-dd') FROM dual;  
 SELECT TO_DATE('20-06-2', 'yy-dd-mm') FROM dual;  
 
+SELECT CONCAT(ename, sal) FROM emp;  
+SELECT CONCAT('seshu', ' chakravarthy') FROM dual;  
 
-SELECT CONCAT('seshu', ' chakravarthy') FROM dual;
 
 SELECT LPAD(ename, 10, '_') FROM emp;
 SELECT RPAD(ename, 10, '_') FROM emp;
