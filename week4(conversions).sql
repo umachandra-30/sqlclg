@@ -19,8 +19,10 @@ SELECT TO_NUMBER('434', '9999') FROM dual;
 SELECT TO_NUMBER('00434', '999999') FROM dual;  
 
 
-SELECT TO_DATE('2020-06-23', 'yyyy-mm-dd') FROM dual;
-SELECT TO_DATE('20-06-23', 'yy-mm-dd') FROM dual;
+SELECT TO_DATE('2020-06-23', 'yyyy-mm-dd') FROM dual;  
+SELECT TO_DATE('20-06-23', 'yy-mm-dd') FROM dual;  
+SELECT TO_DATE('20-06-2', 'yy-dd-mm') FROM dual;  
+
 
 SELECT CONCAT('seshu', ' chakravarthy') FROM dual;
 
